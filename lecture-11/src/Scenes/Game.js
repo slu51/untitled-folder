@@ -17,8 +17,7 @@ class OneDmovement extends Phaser.Scene {
         this.load.image("ghost", "ghost.png");
 
 
-        document.getElementById('description').innerHTML = '<h2>Monster.js<br>S - smile // F - show fangs<br>A - move left // D - move right</h2>'
-    }
+        document.getElementById('description').innerHTML ='<h2>Game.js<br>Space - shoot// <br>A - move left // D - move right</h2>'}
 
     create() {
         let my = this.my;
